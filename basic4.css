@@ -1,0 +1,217 @@
+img.nothing
+{
+	border: 0px dotted green;
+}
+
+.zero
+{
+	border: 0px;
+}
+
+.four
+{
+	
+	font-weight: bold;
+}
+
+tr.spaceUnder>td 
+{
+  padding-bottom: 1em;
+}
+
+tr
+{
+	text-align: center;
+	font-family: "berlin sans fb", monospace;
+	font-size: 20pt;
+	
+}
+
+h3
+{
+	font-family: "berlin sans fb", monospace;
+	font-size: 13pt;
+}
+
+h2 
+{	
+    color: red;
+	background-color: #ffffff;
+	text-align: center;
+	font-family: "berlin sans fb", monospace;
+	font-size: 63pt;
+	
+}
+
+ul.ten
+{
+	color: black;
+	font-family: "berlin sans fb", monospace;
+	font-size: 26pt;
+	list-style-type: disc;
+	text-align: justify;
+}
+
+li.nine
+{
+	color: red;
+	list-style-type: disc;
+	border-right: none;
+	margin: 0 0 0 0;
+}
+
+ul.team 
+{
+	color: red;
+	font-family: "berlin sans fb", monospace;
+	font-size: 	26pt;
+	list-style: bullets;
+		
+}
+
+h2.eight
+{
+	color: white;
+	background-color: red;
+	font-size: 60pt;
+	text-align: center;
+	margin: 0 0 0 0
+	
+}
+
+h2.center 
+{
+	color: white;
+	background-color: #ff0000;
+	font-size: 44pt
+}
+
+hr
+{
+	border-top: 60px solid #ff0000;
+	margin: 0 0 0 0
+}
+
+h1 
+{	
+	line-height: 200pt;
+    color: red;
+	font-family: "berlin sans fb", monospace;
+	text-align: center;
+	font-size: 100pt;
+	background-image: url("responses.jpg");
+	background-size: 1400px, 1000px;
+    background-repeat: no-repeat;
+	margin: 0 0 0 0;
+}
+	
+p 
+{	
+    color: black;
+	background-color: #ffffff;
+	text-align: justify;
+	font-family: "berlin sans fb", fantasy;
+	font-size: 26pt;
+} 
+	
+img 
+{	
+    padding: 20px;
+	margin: 40px 10px 40px 10px;
+	border: 10px dotted red;
+}
+ 	
+h3 
+{	
+    color: black;
+	background-color: #d8da3d; 
+}
+
+<!-- Everything below this is for the navigation bar. -->
+a
+{
+	color: green;
+}
+
+ol 
+{
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li 
+{
+    display: inline;
+}
+
+li 
+{
+    float: left;
+}
+
+a 
+{
+    display: block;
+    padding: 8px;
+    background-color: #ffffff;
+	color: black
+}
+
+ol 
+{
+    	background-color: #ffffff;
+	color: black
+}
+
+ol 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+li 
+{
+    float: left;
+}
+
+li a 
+{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #000000 (black) on hover */
+li a:hover 
+{
+    background-color: #000000;
+	color: white
+}
+
+li a:hover:not(.active) 
+{
+    background-color: #000000;
+}
+
+.active 
+{
+    background-color: #d8d8d8;
+}
+
+/* Add a gray right border to all list items, except the last item (last-child) */
+li 
+{
+    border-right: 1px solid #000000;
+}
+
+li:last-child
+{
+    border-right: none;
+}
