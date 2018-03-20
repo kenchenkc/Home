@@ -1,7 +1,5 @@
 h1 {
     background-image: url("welcomebackground.jpeg");
-	background-size: 1400px, 800px;
-    background-repeat: no-repeat;
 }
 li {
     display: inline;
