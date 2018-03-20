@@ -1,6 +1,5 @@
-div {
-    background-image: url("welcomebackground.jpeg");
-    background-repeat: no-repeat;
+h1 {
+    background-image: url (welcomebackground.jpg)
 }
 li {
     display: inline;
