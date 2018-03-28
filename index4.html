@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+	<title>Boreal Shield</title>
+	<link rel="stylesheet" type="text/css" href="basic.css"/>
+	<meta charset="UTF-8"/>
+</head>
+<body>
+	<div>
+		<div class="topnav" id="myTopnav">
+			<a href="index.html">Home</a>
+			<a href="index2.html">Climate</a>
+			<a href="index3.html">Landforms</a>
+			<a href="index4.html" class="active">Wildlife</a>
+			<a href="index5.html">Vegetation</a>
+			<a href="index6.html">Soil</a>
+			<a href="index7.html">Human Activities</a> 			
+			<a href="index8.html">Things to do</a>
+			<a href="index10.html">Bibliography</a>
+		</div>
+	</div>
+	<br>
+	<h1 class = "wildlife">Wildlife<br><br></h1>
+	<br><br><br>
+	<h2 class = "catch">An ecozone rich with wildlife.</h2>
+	<br><br><br>
+	<div class="responsive">
+		<div class="gallery">
+			<a href="#explore">
+				<img src="explore.jpg" alt="Explore" width="300" height="200">
+			</a>
+			<div class="desc">Explore</div>
+		</div>
+	</div>
+	<div class="responsive">
+		<div class="gallery">
+			<a href="#animals">
+				<img src="species.jpg" alt="deer" width="300" height="200">
+			</a>
+			<div class="desc">Animal Species</div>
+		</div>
+	</div>
+	<div class="responsive">
+		<div class="gallery">
+			<a href="#gallery">
+				<img src="gallery.jpg" alt="Gallery" width="300" height="200">
+			</a>
+			<div class="desc">Gallery</div>
+		</div>
+	</div>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<div class = "green">
+		<br><br>
+		<h2 class = "regular"><a id = "explore"></a>Explore</h2>
+		<br>
+		<p class = "reg"><b>Because the Boreal Shield is largely wild and uninhabited by humans,</b> this ecozone is rich with wildlife. <b>Even though Ottawa is a big city,</b> there are still 
+		large, natural green spaces where many different animals live. <b>In St. John’s, there are not many varieties of animals.</b> However, this does not mean that these animals are not 
+		special.</p>
+		<br><br>
+	</div>
+	<br><br>
+	<h2 class = "regular"><a id = "animals"></a>Animal Species</h2>
+	<img class = "places" src="bluejay.jpg" alt="bluejay">	
+	<br><br><br><br>
+	<div class= "textbox4"><center>Boreal Shield</center><br>The iconic blue jay lives in the Boreal Shield! (Did you know that Toronto has a baseball team named after 
+	these amazing birds?) Furthermore, on the coasts, large whales and seals thrive in the refreshing water. Perhaps, if you are lucky, you may even see one!</div>
+	<br><br>
+	<img class = "places" src="beavers.jpg" alt="beavers">
+	<br><br><br><br>
+	<div class= "textbox5"><center>Ottawa, Ontario</center><br><br>Many different animals live in Ottawa, such as the<br><br> - Canada geese<br><br> - Beavers<br><br> - White-tailed deer</div>
+	<br><br>
+	<img class = "places" src="blackbear.png" alt="bear">
+	<br><br><br><br>
+	<div class= "textbox4"><center>St. John's, Newfoundland</center><br>One animal that is native to St. John’s is the fierce black bear. These black bears love to eat grasses 
+	and roots, but hunt for fish and mammals as well.</div>
+	<br><br>
+	<h2 class = "regular"><a id = "gallery"></a>Gallery</h2>
+	<br>
+	<meta name="viewport">
+<style>
+* {box-sizing: border-box}
+.mySlides {
+	display: none
+	background: #FADBDC;
+}
+img {
+	vertical-align: middle;
+	width: 500px;
+	height: 500px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  box-shadow: none;
+  background: #FADBDC;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  background-color: rgba(0,0,0,0.8);
+  box-shadow: none;
+
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  box-shadow: none;
+
+}
+
+/* Caption text */
+.text {
+  color: black;
+  font-family: "berlin sans fb", monospace;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  box-shadow: none;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: black;
+  font-family: "berlin sans fb", monospace;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  box-shadow: none;
+}
+
+.active1, .dot:hover {
+  background-color: #717171;
+  box-shadow: none;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+  box-shadow: none;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+<div class = "pink">
+<br>
+<div class="slideshow-container">
+<br><br><br>
+<div class="mySlides fade">
+  <div class="numbertext">1 / 7</div>
+  <img src="bluejay1.jpg" style="width:100%">
+  <div class="text">Blue jay</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">2 / 7</div>
+  <img src="whale.jpg" style="width:100%">
+  <div class="text">Whale</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">3 / 7</div>
+  <img src="seal.jpg" style="width:100%">
+  <div class="text">Seal</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">4 / 7</div>
+  <img src="wildlifebackground1.jpg" style="width:100%">
+  <div class="text">Canada geese</div>
+</div><div class="mySlides fade">
+  <div class="numbertext">5 / 7</div>
+  <img src="beavers1.jpg" style="width:100%">
+  <div class="text">Beavers</div>
+</div><div class="mySlides fade">
+  <div class="numbertext">6 / 7</div>
+  <img src="species1.jpg" style="width:100%">
+  <div class="text">White-tailed deer</div>
+</div><div class="mySlides fade">
+  <div class="numbertext">7 / 7</div>
+  <img src="blackbear1.jpg" style="width:100%">
+  <div class="text">Black bear</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br><br><br>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active1";
+}
+</script>
+</body>
+</html>
